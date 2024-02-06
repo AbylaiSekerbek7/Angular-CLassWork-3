@@ -1,0 +1,37 @@
+<main class="main">
+  <!-- <form (ngSubmit)="onSubmit($event)">
+    <label for="name">Name: </label>
+    <input (ngModel) = "formData.name" type="text" placeholder="Name">
+    <label for="name">Surname: </label>
+    <input (ngModel) = "formData.surname" type="text" placeholder="Surname">
+    <button type="submit">Submit</button>
+  </form> -->
+  <div id="Lab 01">
+    <p>Exercise 2</p>
+    <h1>Hello, Angular!</h1>
+
+    <p>Exercise 3</p>
+    <h3>To be or not to be</h3>
+
+    <p>Exercise 4</p>
+    <div *ngFor="let img of imgArr">
+      <img [src]="img" alt="Image" [width]="300" [height]="300">
+    </div>
+  </div>
+
+  <div id="Lab 02">
+    <p>Exercises 1, 2, 3</p>
+    <p id="hobby">Name of hobby: {{hobby.name}}, Description: {{hobby.desc}}, Stars: {{hobby.star}}</p>
+    <div *ngFor="let img of hobbyArr">
+      <img [src]="img" alt="Images" [width]="300" [height]="300">
+    </div>
+
+    <p>Exercise 4</p>
+    <div id="Resume">
+      <app-resume>
+        
+      </app-resume>
+    </div>
+  </div>
+
+</main>
